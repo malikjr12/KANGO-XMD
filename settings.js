@@ -15,16 +15,16 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'levanter_1647d38f49c307405298d85f671f7bc9b4' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'ASAD MALIK MD' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '923275374285' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -34,15 +34,15 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'ASAD MALIK' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "ASAD" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Asad" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
